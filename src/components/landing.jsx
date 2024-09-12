@@ -10,7 +10,7 @@ function Landing() {
         <span className='landing--job'>Front-End web developer</span>
         <span className='landing--profession'>Professional ReactJS developer</span>
         <a href="#projects" className='landing--button'>SEE MY WORK</a>
-        <img src='IMG_4204.jpeg' />
+        <img src='IMG_2648.JPEG' />
     </div>
   )
 }
