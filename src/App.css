@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
 html{
     scroll-behavior: smooth;
+    transform: translateY(50px); /* Start lower */
+    animation: fadeUp 1s forwards;
+    animation-delay: 0.5s;
 }
+@keyframes fadeUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 body {
     margin: 0px;
     font-family: "Epilogue", sans-serif;
@@ -69,6 +78,7 @@ a {
     padding: 14% 13%;
     gap: 24px;
     background-color: #28293E;
+    
 }
 .landing>img{
     width: 20%;
