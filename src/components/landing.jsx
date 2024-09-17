@@ -5,7 +5,7 @@ import '../App.css'
 function Landing() {
 
   return (
-    <div className='landing' id='landing'>
+    <div className='landing animate' id='landing'>
         <span className='landing--name'>Abdelrahman Shaarawi</span>
         <span className='landing--job'>Front-End web developer</span>
         <span className='landing--profession'>Professional ReactJS developer</span>

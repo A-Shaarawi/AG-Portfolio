@@ -65,12 +65,23 @@ a {
 /***End of Navigation Styling***/
 
 /***Start of Landing Styling***/
+@keyframes scroll {
+    from {opacity: 0; 
+      }
+    to{opacity: 1;
+      transform: translateY(-55px);}
+  }
 .landing {
     display: flex;
     flex-direction: column;
     padding: 14% 13%;
     gap: 24px;
     background-color: #28293E;
+    p.in-view{
+    
+        animation: scroll 2s forwards;
+        
+    }
     
 }
 .landing>img{
@@ -114,25 +125,12 @@ a {
 /***End of Landing Styling***/
 
 /***Start of About Styling***/
-@keyframes scroll {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(100px);
-    }
-}
 .about {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #F9E5DA;
-    .scroll-text {
-        animation: scroll 2s ease-in-out infinite;
-        scroll-behavior: smooth;
-    }
-    
 }
 
 .about--title, .services {
