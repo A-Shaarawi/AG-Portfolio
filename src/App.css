@@ -179,11 +179,16 @@ a {
 /***End of About Styling***/
 
 /***Start of Services Styling***/
+@keyframes scroll {
+    from {opacity: 0;}
+    to  {opacity: 1;}
+  }
 .about--services{
     background-color: #F9E5DA;
     padding-top: 60px;
     display: flex;
     flex-direction: column;
+    animation: scroll 1s forwards;
 }
 .services{
     text-align: center;
@@ -224,7 +229,7 @@ a {
     font-size: 40px;
     font-weight: bolder;
 }
-/***End of About Styling***/
+/***End of Services Styling***/
 /***Start of Projects Styling***/
 .projects{
     background-color:#F9E5DA;
