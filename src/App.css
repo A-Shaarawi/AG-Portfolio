@@ -3,10 +3,14 @@ html{
     scroll-behavior: smooth;
 
 }
-
+@keyframes scroll {
+    from {opacity: 0;}
+    to{opacity: 1;}
+  }
 body {
     margin: 0px;
     font-family: "Epilogue", sans-serif;
+    animation: scroll 1s forwards;
 }
 button{
     cursor: pointer;
@@ -179,16 +183,12 @@ a {
 /***End of About Styling***/
 
 /***Start of Services Styling***/
-@keyframes scroll {
-    from {opacity: 0;}
-    to  {opacity: 1;}
-  }
+
 .about--services{
     background-color: #F9E5DA;
     padding-top: 60px;
     display: flex;
     flex-direction: column;
-    animation: scroll 1s forwards;
 }
 .services{
     text-align: center;
