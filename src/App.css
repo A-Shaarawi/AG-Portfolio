@@ -179,22 +179,11 @@ a {
 /***End of About Styling***/
 
 /***Start of Services Styling***/
-@keyframes scroll {
-    from {opacity: 0; 
-      }
-    to{opacity: 1;
-      transform: translateY(-55px);}
-  }
 .about--services{
     background-color: #F9E5DA;
     padding-top: 60px;
     display: flex;
     flex-direction: column;
-    p.in-view{
-    
-        animation: scroll 2s forwards;
-        
-    }
 }
 .services{
     text-align: center;
