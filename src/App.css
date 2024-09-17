@@ -65,23 +65,12 @@ a {
 /***End of Navigation Styling***/
 
 /***Start of Landing Styling***/
-@keyframes scroll {
-    from {opacity: 0; 
-      }
-    to{opacity: 1;
-      transform: translateY(-55px);}
-  }
 .landing {
     display: flex;
     flex-direction: column;
     padding: 14% 13%;
     gap: 24px;
     background-color: #28293E;
-    p.in-view{
-    
-        animation: scroll 2s forwards;
-        
-    }
     
 }
 .landing>img{
